@@ -1,0 +1,20 @@
+void setup(){
+  size(480, 120);
+  strokeWeight(4);
+  smooth();
+}
+
+void draw(){
+  background(204);
+  stroke(255);
+  line(120, 60, 70, height);
+  if(mousePressed){
+    // 区别鼠标按键
+    if(mouseButton == LEFT){
+      stroke(255);
+    }else{
+      stroke(0);
+    }
+    line(0, 70, width, 50);
+  }
+}
