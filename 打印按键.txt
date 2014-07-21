@@ -1,0 +1,11 @@
+void setup(){
+  size(120, 120);
+  textSize(64);
+  textAlign(CENTER);
+}
+
+void draw(){
+  background(204);
+  // 将按键的字母转换为图形
+  text(key, 60, 80);
+}
