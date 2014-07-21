@@ -1,0 +1,15 @@
+PFont font;
+
+void setup(){
+  size(480, 120);
+  font = loadFont("CourierNewPSMT-48.vlw");
+  textFont(font);
+}
+
+void draw(){
+  background(0);
+  textSize(36);
+  text("That's on small step for man ... ", 25, 60);
+  textSize(18);
+  text("That' on small step for man ... ", 27, 30);
+}

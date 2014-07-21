@@ -1,0 +1,15 @@
+PImage img;
+PImage img2;
+
+void setup(){
+  size(480, 120);
+  // 项目的根目录下创建data文件夹，图片放在其中
+  img = loadImage("lunar.jpg");
+  img2 = loadImage("capsule.jpg");
+}
+
+void draw(){
+  image(img,-120,0);
+  image(img, 130, 0, 240, 120);
+  image(img2, 300, 0, 240,120);
+}
